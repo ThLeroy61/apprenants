@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+#layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#layout h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+
+#menu li{
+    margin: 0 50px;
+}
+
+#menu li a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1f1f1f;
+}
+
+#creation_article{
+    width: 500px;
+    border: 2px solid #1f1f1f;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+input, textarea{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#validate{
+    text-align: center;
+}
+
+#validate input[type=submit]{
+    border: 2px solid black;
+    background: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.article{
+    padding: 0 100px;
+}
+
+.article h2{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.article h6{
+    margin-top: 0;
+}
+
+.btns{
+    margin: 40px 0;
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.btn-edit{
+    border: 2px solid orange;
+    color: orange;
+}
+
+.btn-delete{
+    border: 2px solid red;
+    color: red;
+}
+
+.btn-read{
+    border: 2px solid green;
+    color: green;
+}
+
+#tags p{
+    font-style: italic;
+}
