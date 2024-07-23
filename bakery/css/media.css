@@ -1,0 +1,326 @@
+@media screen and (max-width: 1500px) {
+    
+    
+    .remove{
+        display: none !important;
+    }
+
+    #main_jibarito{
+        flex-direction: column;
+    }
+
+    #ingredient_jibarito{
+        flex-direction: row;
+    }
+
+    #menu_jibarito{
+        margin-top: 100px;
+    }
+
+    #header nav{
+        padding: 0 50px;
+    }
+
+    #menucentre{
+        left: 25%;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    #main_content, #info_pancake, #breakfast, #main_jibarito{
+        flex-direction: column;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    
+
+    #footer_menu{
+        flex-direction: column;
+        border-color: transparent;
+        height: auto;
+    }
+
+    #footer_menu li{
+        margin: 15px 0 !important;
+    }
+
+    #main_content, #breakfast, #jibarito{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #main_img{ 
+        display: flex;
+        justify-content: center;
+        margin-top: 75px;
+    }
+
+    #menucentre{
+        display: none;
+    }
+
+    #breakfast_first{
+        margin-top: 0;
+    }
+
+    #img_border{
+        margin-top: -33px;
+    }
+
+    #breakfast_responsive{
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+        justify-content: space-between;
+    }
+
+    #breakfast_responsive img{
+        display: none;
+    }
+
+    #breakfast_img{
+        background-position: center;
+        margin-top: 50px;
+    }
+
+    #folder{
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    #btn_read{
+        margin-bottom: 90px;
+    }
+
+    #menu_jibarito{
+        margin-top: 115px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #main_content, #breakfast, #jibarito{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #epis{
+        display: none;
+    }
+
+    #header_wrapper h1{
+        font-size: 72px;
+    }
+
+    #header_wrapper h2{
+        font-size: 18px;
+    }
+
+    #main_btn{
+        font-size: 14px;
+    }
+
+    #img_border{
+        margin-top: -28px;
+    }
+
+    #text-pancake h2{
+        font-size: 40px;
+    }
+
+    #carousel img{
+        margin: 0 10px;
+    }
+
+    #ingredient_jibarito{
+        padding: 0 25px;
+    }
+
+    .carre{
+        width: 180px;
+        height: 180px;
+    }
+
+    #full_recipe{
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    #header_wrapper h1{
+        font-size: 55px;
+    }
+
+    #header_wrapper h2{
+        font-size: 16px;
+    }
+
+    #main_btn{
+        font-size: 13px;
+    }
+
+    #img_border{
+        margin-top: -20px;
+    }
+
+    #lorem1{
+        font-size: 14px;
+    }
+
+    #citation_text{
+        line-height: 29px;
+    }
+
+    
+}
+
+@media screen and (max-width: 705px) {
+    #jibarito{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #header_wrapper h1{
+        font-size: 38px;
+    }
+
+    #header_wrapper h2{
+        font-size: 16px;
+    }
+
+    #main_btn{
+        font-size: 13px;
+    }
+
+    #img_border{
+        margin-top: -15px;
+    }
+
+    #lorem1{
+        font-size: 14px;
+    }
+
+    #citation_text{
+        line-height: 29px;
+    }
+
+    #ingredient_jibarito{
+        flex-direction: column;
+    }
+
+    #quatuor_img{
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+
+    #img_taste{
+        display: none;
+    }
+
+    #delay, #list_carres{
+        display: none;
+    }
+
+    #text-pancake h2 {
+        font-size: 28px;
+    }
+
+    #text-pancake h4{
+        font-size: 14px;
+    }
+
+    #text-pancake p{
+        font-size: 12px;
+    }
+
+    #text-pancake{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #carousel img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .arrow{
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    #folder{
+        width: auto;
+    }
+
+    #folder h2{
+        padding: 0 30px;
+    }
+
+    #header_wrapper h1{
+        font-size: 30px;
+    }
+
+    #header_wrapper h2{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    #header nav{
+        padding: 0 5px;
+    }
+
+    #citation_text::before{
+        left: -30px;
+    }
+
+    #citation_text::after{
+        right: -25px;
+    }
+
+    #breakfast_responsive{
+        flex-direction: column;
+    }
+
+    #breakfast_img{
+        margin-top: 0;
+    }
+
+    #esti{
+        width: auto;
+        margin-top: 60px;
+    }
+
+    #folder img{
+        margin-left: 30px;
+        width: 80%;
+    }
+
+    #folder h2{
+        font-size: 34px;
+    }
+
+    #folder p{
+        padding: 0;
+    }
+
+    #btn_read{
+        margin-right: 0;
+    }
+
+    #jibarito_title h2{
+        font-size: 40px;
+    }
+
+    #jibarito_title h4{
+        font-size: 14px;
+    }
+}
